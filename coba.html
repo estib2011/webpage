@@ -1,0 +1,67 @@
+<head> 
+	<title>
+		Mencoba CSS 3 dan HTML 5
+	</title>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="sayacss.css" rel="stylesheet" type="text/css" </head>
+
+<body>
+	<center>
+		<form id=biodata>
+	<fieldset>
+
+		<h1>
+			Form Pengisian Biodata
+		</h1>
+		<ol>
+			<li>
+				<label for=nama>Nama</label>
+				<input id=nama name=nama type=text placeholder="Nama awal dan akhir anda" required autofocus>
+			</li>
+			<li>
+				<label for=nama>Jenis Kelamin</label>
+				<INPUT TYPE="RADIO" NAME="RD1" VALUE="laki-laki">Laki-laki<BR>
+				<INPUT TYPE="RADIO" NAME="RD1" VALUE="perempuan">Perempuan<BR>
+			</li>
+			<li>
+				<label for=email>Email</label>
+				<input id=email name=email type=email placeholder="contoh@sayacoba.org" required>
+			</li>
+			<li>
+				<label for=hp>No Ponsel</label>
+				<input id=hp name=hp type=tel placeholder="Contoh. +6283000" required>
+			</li>
+		</ol>
+
+	</fieldset>
+	<fieldset>
+		<ol>
+			<li>
+				<label for=alamat>Alamat Anda</label>
+				<textarea id=alamat name=alamat rows=5 required></textarea>
+			</li>
+			<li>
+				<label for=kodepos>Kode Pos</label>
+				<input id=kodepos name=kodepos type=text placeholder="Contoh. 46211" required>
+			</li>
+			<li>
+				<label for=kota>Kota/Kab</label>
+				<input id=kota name=kota type=text required>
+			</li>
+			<li>
+				<label for=provinsi>Provinsi</label>
+				<input id=provinsi name=provinsi type=text required>
+			</li>
+			<li>
+				<label for=negara>Negara</label>
+				<input id=negara name=negara type=text required>
+			</li>
+		</ol>
+	</fieldset>	
+	<fieldset>
+		<button type=submit>Kirim</button>
+	</fieldset>
+	</form>
+	</center>
+ </body>
